@@ -48,7 +48,7 @@ export class FpAmbulanceWlList {
             <md-list-item>
               <div slot="headline">{patient.name}</div>
               <div slot="supporting-text">{"Predpokladaný vstup: " + this.isoDateToLocale(patient.estimatedStart)}</div>
-                <md-icon slot="start">person</md-icon>
+              <md-icon slot="start">person</md-icon>
             </md-list-item>
           )}
         </md-list>
