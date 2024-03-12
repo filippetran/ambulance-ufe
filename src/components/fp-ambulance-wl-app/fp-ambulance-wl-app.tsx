@@ -37,6 +37,7 @@ export class FpAmbulanceWlApp {
    }
 
    render() {
+    console.debug("fp-ambulance-wl-app.render() - path: %s", this.relativePath);
     let element = "list"
     let entryId = "@new"
   
